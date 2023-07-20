@@ -19,10 +19,18 @@ function Navbar() {
                 <div className="">
                     {/* logic for showing by clicking */}
                     <ul id="navbar" className={ show ? "#navbar active" : "#navbar"} >
-                            <li><Link className="active" href='#' >Home</Link></li>
-                            <li><Link href='#' >About</Link></li>
-                            <li><Link href='#' >Contact</Link></li>
-                           <li> <Link href='#' >Skills</Link></li>
+                            <li>                              
+                              <Link href='#home'>Home</Link>
+                            </li>
+                            <li>
+                              <Link href='#intro'  >About Me</Link>
+                            </li>
+                            <li>
+                              <Link href='#skills' >Skills</Link>
+                            </li>
+                           <li>
+                             <Link href='#contact' >Contact</Link>
+                          </li>
                     </ul>
                 </div>
                 <div id="mobile" onClick={switchBurger} >                    
