@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
 
 
+:root{
+  --color-white : #ffff;
+}
+
 *{
   font-family: 'Dongle', sans-serif;
   font-size: 1.7rem;
@@ -15,5 +19,5 @@
 body{
     background: rgb(34,40,49);
   background: linear-gradient(21deg, rgba(34,40,49,1) 5%, rgba(57,62,70,1) 33%, rgba(0,147,147,1) 85%, rgba(54,67,74,1) 100%, rgba(47,77,83,1) 100%) center no-repeat ; 
-  height: 100vh;
+  height: 200vh;
 }

@@ -1,0 +1,65 @@
+.main{
+    height: 670px;
+    color: var(--color-white);
+}
+
+.intro{
+    font-size: 2.5rem;
+    line-height: 45px;
+    padding-left: 250px;
+}
+
+.profile{
+    width: 450px;
+    height: 400px;
+}
+
+.about-me{
+    line-height: 45px;
+}
+
+.self-study{
+    width: 650px;
+    height: 100px;
+    transition: .4s;
+}
+
+/* .self-study::before{
+    width: 600px;
+    height: 100px;
+    background-color: #888;
+    transform: translate(10deg , 10deg);
+    margin-top: 20px;
+
+} */
+
+.self-study:hover{
+    transform: rotate(-10deg);
+}
+
+
+
+@media only screen and (max-width : 1024px){
+
+    .intro{
+        padding-left: 50px;
+        font-size: 1.5rem;
+
+    }
+
+    .profile{
+        width: 300px;
+        height: 270px;
+    }
+
+    .about-txt{
+        font-size: 1rem;
+    }
+
+    .self-study{
+        width: 300px;
+        height: 100px;
+    }
+
+
+}
