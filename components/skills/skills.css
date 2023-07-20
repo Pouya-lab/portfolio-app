@@ -1,0 +1,117 @@
+.progress-skills {
+  
+  height: 400px;
+  padding: 0;
+}
+
+.progress {
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 500px;
+}
+
+.progress-value-html {
+  animation: html 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes html {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+.progress-value-tailwind {
+    animation: tailwind 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes tailwind {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+
+  .progress-value-react,
+  .progress-value-mongo,
+    .progress-value-js {
+    animation: react 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes react {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+
+  .progress-value-css {
+    animation: css 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes css {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+
+  .progress-value-next {
+    animation: next 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes next {
+    0% { width: 0; }
+    100% { width: 50%; }
+  }
+
+  .progress-value-express {
+    animation: express 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes express {
+    0% { width: 0; }
+    100% { width: 40%; }
+  }
+
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

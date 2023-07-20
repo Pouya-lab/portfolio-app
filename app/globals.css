@@ -18,7 +18,7 @@ html{
 body{
     background: rgb(34,40,49);
   background: linear-gradient(21deg, rgba(34,40,49,1) 5%, rgba(57,62,70,1) 33%, rgba(0,147,147,1) 85%, rgba(54,67,74,1) 100%, rgba(47,77,83,1) 100%) center no-repeat ; 
-  height: 200vh;
+  height: 400vh;
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
