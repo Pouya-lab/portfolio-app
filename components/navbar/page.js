@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <>
-        <nav>
+        <nav className='w-full fixed' >
                 <h3>Pouya<br/>Behrooj</h3>
                 <div className="">
                     {/* logic for showing by clicking */}

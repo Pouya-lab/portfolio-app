@@ -32,7 +32,7 @@ nav{
 }
 
 #navbar li a{
-    color: aliceblue;
+    color: rgba(54,67,74,1);
     transition: .4s ease-in-out ;
 }
 

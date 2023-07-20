@@ -7,7 +7,7 @@ function Intro() {
   return (
     <>
         <div className="main grid grid-cols-2 ">
-            <div className="intro flex justify-center items-center">
+            <div className="intro flex justify-center items-center text-white">
                 Hello<br/>
                 I'm Pouya Behrooj<br/>
                and I'm a junior web developer

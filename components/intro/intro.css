@@ -24,14 +24,7 @@
     transition: .4s;
 }
 
-/* .self-study::before{
-    width: 600px;
-    height: 100px;
-    background-color: #888;
-    transform: translate(10deg , 10deg);
-    margin-top: 20px;
 
-} */
 
 .self-study:hover{
     transform: rotate(-10deg);
