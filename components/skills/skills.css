@@ -15,6 +15,13 @@
   width: 500px;
 }
 
+.precent{
+  z-index: 1000;
+  color: black;
+  font-size: 40px;
+  
+}
+
 .progress-value-html {
   animation: html 3s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
@@ -22,6 +29,17 @@
   background: #fff;
   height: 30px;
   width: 0;
+}
+
+.progress-value-html::before {
+  content: "80%";
+  color: black;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 1000;
+  margin-top: -12px;
+  margin-left: 12px;
 }
 
 @keyframes html {
@@ -36,6 +54,17 @@
     background: #fff;
     height: 30px;
     width: 0;
+  }
+
+  .progress-value-tailwind::before {
+    content: "80%";
+    color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1000;
+    margin-top: -12px;
+    margin-left: 12px;
   }
   
   @keyframes tailwind {
@@ -53,6 +82,19 @@
     height: 30px;
     width: 0;
   }
+
+  .progress-value-react::before,
+  .progress-value-mongo::before,
+  .progress-value-js::before {
+    content: "70%";
+    color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1000;
+    margin-top: -12px;
+    margin-left: 12px;
+  }
   
   @keyframes react {
     0% { width: 0; }
@@ -66,6 +108,17 @@
     background: #fff;
     height: 30px;
     width: 0;
+  }
+
+  .progress-value-css::before {
+    content: "80%";
+    color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1000;
+    margin-top: -12px;
+    margin-left: 12px;
   }
   
   @keyframes css {
@@ -81,6 +134,17 @@
     height: 30px;
     width: 0;
   }
+
+  .progress-value-next::before {
+    content: "70%";
+    color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1000;
+    margin-top: -12px;
+    margin-left: 12px;
+  }
   
   @keyframes next {
     0% { width: 0; }
@@ -94,6 +158,17 @@
     background: #fff;
     height: 30px;
     width: 0;
+  }
+
+  .progress-value-express::before {
+    content: "70%";
+    color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1000;
+    margin-top: -12px;
+    margin-left: 12px;
   }
   
   @keyframes express {
@@ -116,9 +191,39 @@
 
 @media screen and (max-width: 1024px){
   
+  label{
+    font-size: 40px;
+  }
+
   .progress{
-    height: 40px;
+    height: 30px;
     width: 300px;
   }
+
+  .progress-value-html,
+  .progress-value-css,
+  .progress-value-express,
+  .progress-value-js,
+  .progress-value-mongo,
+  .progress-value-next,
+  .progress-value-react,
+  .progress-value-tailwind{
+    height: 20px;
+    width: 200px;
+  }
+
+  .progress-value-html::before,
+  .progress-value-css::before,
+  .progress-value-express::before,
+  .progress-value-js::before,
+  .progress-value-mongo::before,
+  .progress-value-next::before,
+  .progress-value-react::before,
+  .progress-value-tailwind::before{
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 12px;
+  }
+
 }
 

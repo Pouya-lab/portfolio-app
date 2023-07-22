@@ -7,10 +7,10 @@ function Skills() {
         <div id='skills' className="progress-skills text-white mt-32 xl:grid grid-cols-2">
 
             <div className='section-1 '>
-
               <label >HTML</label>
               <div class="progress">
-                <div class="progress-value-html"></div>
+                <div class="progress-value-html">
+                </div>
               </div>
 
               <label >Tailwind</label>
