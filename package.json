@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Pouya-lab.github.io/portfolio-app",
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -17,5 +20,8 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
     "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
