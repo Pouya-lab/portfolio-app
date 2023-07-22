@@ -1,3 +1,7 @@
+label{
+  font-size: 28px;
+}
+
 .progress-skills {
   height: 400px;
   padding: 0;
@@ -15,12 +19,6 @@
   width: 500px;
 }
 
-.precent{
-  color: black;
-  font-size: 40px;
-  
-}
-
 .progress-value-html {
   animation: html 3s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
@@ -33,11 +31,11 @@
 .progress-value-html::before {
   content: "80%";
   color: black;
-  font-size: 40px;
+  font-size: 33px;
   display: flex;
   justify-content: flex-start;
   z-index: 1000;
-  margin-top: -12px;
+  margin-top: -10px;
   margin-left: 12px;
 }
 
@@ -58,11 +56,11 @@
   .progress-value-tailwind::before {
     content: "80%";
     color: black;
-    font-size: 40px;
+    font-size: 33px;
     display: flex;
     justify-content: flex-start;
     z-index: 1000;
-    margin-top: -12px;
+    margin-top: -10px;
     margin-left: 12px;
   }
   
@@ -87,11 +85,11 @@
   .progress-value-js::before {
     content: "70%";
     color: black;
-    font-size: 40px;
+    font-size: 33px;
     display: flex;
     justify-content: flex-start;
     z-index: 1000;
-    margin-top: -12px;
+    margin-top: -10px;
     margin-left: 12px;
   }
   
@@ -112,11 +110,11 @@
   .progress-value-css::before {
     content: "80%";
     color: black;
-    font-size: 40px;
+    font-size: 33px;
     display: flex;
     justify-content: flex-start;
     z-index: 1000;
-    margin-top: -12px;
+    margin-top: -10px;
     margin-left: 12px;
   }
   
@@ -135,13 +133,13 @@
   }
 
   .progress-value-next::before {
-    content: "70%";
+    content: "50%";
     color: black;
-    font-size: 40px;
+    font-size: 33px;
     display: flex;
     justify-content: flex-start;
     z-index: 1000;
-    margin-top: -12px;
+    margin-top: -10px;
     margin-left: 12px;
   }
   
@@ -160,13 +158,13 @@
   }
 
   .progress-value-express::before {
-    content: "70%";
+    content: "40%";
     color: black;
-    font-size: 40px;
+    font-size: 33px;
     display: flex;
     justify-content: flex-start;
     z-index: 1000;
-    margin-top: -12px;
+    margin-top: -10px;
     margin-left: 12px;
   }
   
@@ -177,6 +175,7 @@
 
 
 .section-1{
+  margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,7 +190,7 @@
 @media screen and (max-width: 1024px){
   
   label{
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .progress{
@@ -219,8 +218,8 @@
   .progress-value-next::before,
   .progress-value-react::before,
   .progress-value-tailwind::before{
-    font-size: 30px;
-    margin-top: -10px;
+    font-size: 22px;
+    margin-top: -7px;
     margin-left: 12px;
   }
 

@@ -33,7 +33,15 @@ i{
 }
 
 .contact-text{
-    font-size: 80px;
+    font-size: 40px;
+}
+
+.icon-link{
+    font-size: 30px;
+}
+
+.icon-link-gmail{
+    font-size: 25px;
 }
 
 
@@ -47,6 +55,14 @@ i{
         flex-direction: column;
         align-items: center;
         
+    }
+
+    .icon-link{
+        font-size: 20px;
+    }
+    
+    .icon-link-gmail{
+        font-size: 15px;
     }
 
 }

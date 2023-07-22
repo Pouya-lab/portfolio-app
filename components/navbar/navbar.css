@@ -3,7 +3,7 @@ nav h3{
     text-shadow: 3px 3px #000000;
     font-weight: 900;
     line-height: 35px;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
 }
 
 nav{
@@ -50,7 +50,7 @@ nav{
 
 
     nav h3{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     #navbar{
