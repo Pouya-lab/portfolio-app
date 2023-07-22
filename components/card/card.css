@@ -1,0 +1,29 @@
+.card{
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 46px 45px 15px -8px rgba(0,0,0,0.1);
+    transition: .6s ease-in-out ;
+    margin-top: 40px;
+}
+
+.card:hover{
+    border-radius: 30%;
+    transform: rotate(360deg);
+}
+
+@media screen and ( max-width: 1024px ) {
+    .card{
+        height: 200px;
+        width: 200px;
+    }
+
+    .linkedIn{
+        font-size: 20px;
+    }
+}

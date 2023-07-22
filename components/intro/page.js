@@ -11,7 +11,7 @@ function Intro() {
                         <Image className='rounded-full' src={SelfStudy} alt='self-study' />
                     </div>
                  </div>
-                 <p className='about-txt text-center' > 
+                 <p className='about-txt pr-6 text-center' > 
                     I'm a self study junior developer who want's to become a full stack one day.
                     I've been learning about front-end and backe-end and I keep learning about this field because I find it fascinating.
                  </p>

@@ -4,7 +4,7 @@ import './skills.css'
 function Skills() {
   return (
     <>
-        <div id='skills' className="progress-skills text-white mt-32 md:grid grid-cols-2">
+        <div id='skills' className="progress-skills text-white mt-32 xl:grid grid-cols-2">
 
             <div className='section-1 '>
 

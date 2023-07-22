@@ -1,0 +1,52 @@
+i{
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linked-in-icon{
+    color: #0e76a8;
+    background-color: white;
+}
+
+.gmail-icon{
+    color: #de5246;
+    background-color: white;
+}
+
+.telegram-icon{
+    color: #0088cc;
+    background-color: white;
+}
+
+.icon-style{
+    border: 2px solid;
+    border-radius: 50%;
+    /* padding: 30px; */
+    transition: 0.8s;
+}
+
+.icon-style:hover{
+    transform: rotateY(360deg);
+}
+
+.contact-text{
+    font-size: 80px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .contact-text{
+        font-size: 40px;
+    }
+
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+}
