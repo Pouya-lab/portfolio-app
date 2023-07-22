@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <>
         <nav className='w-full fixed' >
-                <h3>Pouya<br/>Behrooj</h3>
+                <h3 className=' animate__animated animate__rollIn' >Pouya<br/>Behrooj</h3>
                 <div className="">
                     {/* logic for showing by clicking */}
                     <ul id="navbar" className={ show ? "#navbar active" : "#navbar"} >

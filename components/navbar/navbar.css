@@ -19,6 +19,7 @@ nav{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 20px 80px ;
     box-shadow: 0 5px 15px rgb(0, 0, 0 , 0.06);
+    z-index: 10000;
 }
 
 #navbar{
@@ -51,7 +52,6 @@ nav{
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
-        margin-top: 22px;
         /* sending content of navbar outside */
         position: fixed;
         top: 90px;
