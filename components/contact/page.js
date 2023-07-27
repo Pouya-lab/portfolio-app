@@ -7,7 +7,7 @@ import Card from '../card/page'
 function Contact() {
   return (
     <>
-        <div id="contact" className='text-white mt-80 md:mt-44'>
+        <div id="contact" className=' pb-12 text-white mt-80 md:mt-44'>
             <p className=' contact-text text-center' >Contacte Me </p>
                <div className=" center md:flex justify-evenly"> 
 

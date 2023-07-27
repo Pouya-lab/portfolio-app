@@ -7,18 +7,29 @@ import { FaBars , FaTimes } from 'react-icons/fa'
 function Navbar() {
 
     const [ show , setShow ] = useState()
+    const [ navbar , setNavbar ] = useState(false)
 
     const switchBurger = ()=>{
         setShow(!show)
     }
 
+    const changeNavSize = ()=>{
+      if(window.scrollY >= 100){
+        setNavbar(true)
+      }else{
+        setNavbar(false)
+      }
+    }
+
+    window.addEventListener("scroll" , changeNavSize)
+
   return (
     <>
-        <nav className='w-full fixed' >
-                <h3 className=' animate__animated animate__rollIn' >Pouya<br/>Behrooj</h3>
+        <nav  className= { navbar ? "nav-scroll" : "nav-default" } >
+                <h3 className= {` logo animate__animated animate__rollIn + ${navbar ? "logo-scroll" : "logo"}`} >Pouya<br/>Behrooj</h3>
                 <div className="">
                     {/* logic for showing by clicking */}
-                    <ul id="navbar" className={ show ? "#navbar active" : "#navbar"} >
+                    <ul id="navbar" className={ ` ${show ? "#navbar active" : "#navbar"}  ${navbar ? "navbar-scroll-list" : ""} `} >
                             <li>                              
                               <Link href='#home'>Home</Link>
                             </li>
