@@ -1,12 +1,31 @@
+"use client"
 
+import { useRef , useEffect , useState } from 'react'
+import { useInView } from 'react-intersection-observer';
 import './skills.css'
 
 function Skills() {
+
+  const { ref : myRef, inView : isVisible, entry } = useInView();
+
+  // const myRef = useRef()
+  // const [ isVisible , setIsVisible ] = useState()
+  // console.log('isVisible' , isVisible );
+
+  // useEffect(()=>{
+  //   const observer = new IntersectionObserver((entries)=>{
+  //     const entry = entries[0]
+  //     setIsVisible(entry.isIntersecting)
+  //   })
+  //   observer.observe(myRef.current)
+  // } , [])
+
   return (
     <>
-        <div id='skills' className="progress-skills text-white mt-32 xl:grid grid-cols-2">
-
-            <div className='section-1 '>
+        <div ref={myRef} id='skills' className="progress-skills text-white mt-32 xl:grid grid-cols-2">
+            { isVisible ? (
+            <>
+              <div  className='section-1 '>
               <label >HTML</label>
               <div class="progress">
                 <div class="progress-value-html">
@@ -58,6 +77,7 @@ function Skills() {
                   </div>
                 </div>
             </div>
+            </>) : "" }
         </div>
        
     </>
